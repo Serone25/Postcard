@@ -1,0 +1,56 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+	font-family: "Dancing Script", cursive;
+}
+
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	height: 300px;
+	width: 400px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	margin: auto;
+}
+img {
+	height: 50px;
+	width: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.first-paragraph {
+	margin-top: 0px;
+}
+.body-left {
+	padding-left: 10px;
+}
+.body-right {
+	padding-right: 10px;
+}
+input {
+	border: none;
+	border-bottom: grey;
+}
+input::placeholder {
+	border: none;
+	border-bottom: grey;
+	color: lightgray;
+	font-size: 1.2em;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgrey;
+	padding: 2px 2px 5px 2px;
+	font-family: "Pacifico", cursive;
+}
